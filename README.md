@@ -22,5 +22,10 @@ A target is “destroyed” when every square of the target has been hit. But ta
 
 When an oil drum or a tank is destroyed, it will explode and hit a 5x5 area around it. When an armory is destroyed, it will explode and hit a 6x7 (or 7x6) area around it. And the explosion can spread, i.e., an explosion can trigger another explosion.
 
+<img width="324" alt="Screen Shot 2022-05-16 at 4 08 10 PM" src="https://user-images.githubusercontent.com/97498760/168673966-355b33f4-c43f-4423-b037-fbb0f29c04a6.png">
+
+The object is to destroy all targets with as few shots as possible. But you can only shoot a rocket launcher 20 times and a missile 3 times. If all targets are destroyed before you run out of ammunition, you win. Otherwise, you lose. You can switch weapons. Each time before you shoot, the program tells you how many shots are left.
+
+The program prints out a message indicating whether you have won or lost, and how many shots were required, when the game is over.
 
 
